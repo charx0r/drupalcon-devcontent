@@ -56,7 +56,7 @@
         </p>
         <!-- The above form looks like this -->
         <center><h2>Estimate Now!!</h2></center>
-        <form action="estimations.php" method="POST" accept-charset="UTF-8">
+        <form action="estimations" method="POST" accept-charset="UTF-8">
           <div class="row">
             <div class="six columns">
               <label for="exampleEmailInput">Your Name</label>

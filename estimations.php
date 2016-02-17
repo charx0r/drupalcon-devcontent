@@ -211,7 +211,7 @@ $project_readiness = (($complete_percentage/sizeof($project_modules))*100);
 						foreach ($project_info as $key => $project_data) {
 							if($project_data['name'] != '') {
 								echo "<tr>";
-								echo '<td><a href="module-info.php?machine_name='.$project_data['name'].'">'.ucwords(str_replace('_', ' ', $project_data['name'])).'</a></td>';
+								echo '<td><a href="module-info?machine_name='.$project_data['name'].'">'.ucwords(str_replace('_', ' ', $project_data['name'])).'</a></td>';
 								echo '<td>';
 								if($project_data['d8_stable'] == 'core') {
 									echo '<span class="in-core">Core</span>';
