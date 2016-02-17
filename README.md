@@ -1,5 +1,7 @@
-# drupalcon-devcontent
+# DrupalCon Mumbai - devcontent
 Drupal 8 Project estimator
+
+Motivation - Data, visualizations are only as important as the knowledge we extract from it to make better descisions. Help developers make better judgments while working on Feasibility, Risk and Cost analysis of a Drupal 8 project. See if your project is Drupal 8 ready.
 
 ##Demo URL
 http://52.36.81.128/drupal_data/
