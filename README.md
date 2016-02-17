@@ -1,8 +1,14 @@
 # drupalcon-devcontent
 Drupal 8 Project estimator
 
+##Demo URL
+http://52.36.81.128/drupal_data/
+
+##Mongo Connection
+52.36.81.128 - default mongo port. - So you dont have to do the import stuff
+
 ##Installation
-- Python >2.6
+- Python > 2.6
 - Mongodb
 - Apache / Nginx
 - PHP
