@@ -38,3 +38,4 @@ http://52.36.81.128/drupal_data/
 					<li>Overall maintainers acitivity (<em style="font-size: 70%;">Todo:add the factor to the overall score</em>)</li>
 					<li>Average bug resolution time. <em style="font-size: 85%;font-weight: bold;">Click on each module for detailed stats. Only works for top 100 modules, so as to not overwhelm the drupal.org with api calls for the last 2 days.</em></li>
 				</ul>
+- <b>Average bug resolution time: </b> Only considers issues which have been marked as "Bug Report" and closed with status 3,7,9. Need to extend this Average Support resolution time as well.
