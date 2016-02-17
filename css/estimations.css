@@ -1,0 +1,68 @@
+.in-core {
+    background: blue;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 90%;
+    font-weight: bold;
+}
+.no-rel {
+    background: red;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 90%;
+    font-weight: bold;
+}
+.partial-core {
+		background: yellowgreen;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 90%;
+    font-weight: bold;
+}
+.stable-rel {
+    background: darkgreen;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 90%;
+    font-weight: bold;
+}
+.dev-avail {
+		background: darkgreen;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 90%;
+    font-weight: bold;
+}
+.dev-not-avail {
+		background: red;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 90%;
+    font-weight: bold;
+}
+th {
+	  background:#f0f0f0;
+}
+.module-status td, .module-status th {
+		text-align:center;
+}
+.module-status thead tr {
+		border:1px solid #E1E1E1;
+}
+.mod-desc {
+		max-height: 200px;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+}
+.mod-desc h2, .mod-desc h3, .mod-desc h4, .mod-desc h1, .mod-desc h5 {
+		font-size:100%;
+}
