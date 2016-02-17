@@ -27,18 +27,17 @@ http://52.36.81.128/drupal_data/
 
 ##Estimator
 - <b>Readiness Score: </b> Readiness score defines the current Drupal contrib status available for your project. You will have to put in the remaining work effort.
-
-Readiness score is a factor of
-				<ul>
-					<li>Part of D8 core</li>
-					<li>Partially part of D8 core</li>
-					<li>D8 Stable release</li>
-					<li>D8 Dev release</li>
-					<li>D8 issues count</li>
-					<li>D8 issue activity (tagged D8, D8dx)</li>
-					<li>Overall maintainers acitivity (<em style="font-size: 70%;">Todo:add the factor to the overall score</em>)</li>
-					<li>Average bug resolution time. <em style="font-size: 85%;font-weight: bold;">Click on each module for detailed stats. Only works for top 100 modules, so as to not overwhelm the drupal.org with api calls for the last 2 days.</em></li>
-				</ul>
+	Readiness score is a factor of
+	<ul>
+		<li>Part of D8 core</li>
+		<li>Partially part of D8 core</li>
+		<li>D8 Stable release</li>
+		<li>D8 Dev release</li>
+		<li>D8 issues count</li>
+		<li>D8 issue activity (tagged D8, D8dx)</li>
+		<li>Overall maintainers acitivity (<em style="font-size: 70%;">Todo:add the factor to the overall score</em>)</li>
+		<li>Average bug resolution time. <em style="font-size: 85%;font-weight: bold;">Click on each module for detailed stats. Only works for top 100 modules, so as to not overwhelm the drupal.org with api calls for the last 2 days.</em></li>
+	</ul>
 - <b>Average bug resolution time: </b> Only considers issues which have been marked as "Bug Report" and closed with status 3,7,9. Need to extend this Average Support resolution time as well.
 - <b>Maintainer activity chart: </b> Display line chart from the data of last year's issues, comments. Need to add commits to this activity metric of a module maintainer.
 
