@@ -26,9 +26,9 @@ http://52.36.81.128/drupal_data/
 - Using AWS t2.large instance with Ubuntu 14.04 server edition
 
 ##Estimator
-- <b>Readiness Score: </b> Readiness score defines the current Drupal contrib status available for your project. You will have to put in the remaining work effort.<br />
-- <b>Maintainer activity chart: </b> Display line chart from the data of last year's issues, comments. Need to add commits to this activity metric.
-				Readiness score is a factor of
+- <b>Readiness Score: </b> Readiness score defines the current Drupal contrib status available for your project. You will have to put in the remaining work effort.
+
+Readiness score is a factor of
 				<ul>
 					<li>Part of D8 core</li>
 					<li>Partially part of D8 core</li>
@@ -40,3 +40,5 @@ http://52.36.81.128/drupal_data/
 					<li>Average bug resolution time. <em style="font-size: 85%;font-weight: bold;">Click on each module for detailed stats. Only works for top 100 modules, so as to not overwhelm the drupal.org with api calls for the last 2 days.</em></li>
 				</ul>
 - <b>Average bug resolution time: </b> Only considers issues which have been marked as "Bug Report" and closed with status 3,7,9. Need to extend this Average Support resolution time as well.
+- <b>Maintainer activity chart: </b> Display line chart from the data of last year's issues, comments. Need to add commits to this activity metric of a module maintainer.
+
