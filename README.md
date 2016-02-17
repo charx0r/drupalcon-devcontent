@@ -27,6 +27,7 @@ http://52.36.81.128/drupal_data/
 
 ##Estimator
 - <b>Readiness Score: </b> Readiness score defines the current Drupal contrib status available for your project. You will have to put in the remaining work effort.<br />
+- <b>Maintainer activity chart: </b> Display line chart from the data of last year's issues, comments. Need to add commits to this activity metric.
 				Readiness score is a factor of
 				<ul>
 					<li>Part of D8 core</li>
