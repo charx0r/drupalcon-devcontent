@@ -1,0 +1,27 @@
+
+<html>
+<style type="text/css">
+  html {
+    overflow: hidden;
+  }
+</style>
+<div id="chartContainer">
+      <script src="js/d3.min.js" data-semver="3.4.8" data-require="d3@*"></script>
+  <script src="js/dimple.v2.1.6.min.js"></script>
+  <script type="text/javascript">
+    var svg = dimple.newSvg("#chartContainer", 1060, 600);
+    d3.csv("py_scripts/bubble_release.csv", function (data) {
+      var myChart = new dimple.chart(svg, data);
+      myChart.setBounds(75, 25, 850, 535)
+      myChart.addCategoryAxis("x", ["Time", "Source"]);
+      myChart.addCategoryAxis("y", "Weekday");
+      var z = myChart.addMeasureAxis("z", "Releases");
+      var s = myChart.addSeries("Source", dimple.plot.bubble);
+      s.aggregate = dimple.aggregateMethod.max;
+      z.overrideMax = 140;
+      myChart.addLegend(240, 10, 330, 20, "right");
+      myChart.draw();
+    });
+  </script>
+</div>
+</html>

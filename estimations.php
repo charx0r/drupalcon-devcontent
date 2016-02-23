@@ -171,6 +171,23 @@ $project_readiness = (($complete_percentage/sizeof($project_modules))*100);
 <body>
 <script src="js/highcharts.js"></script>
 <?php include_once("analyticstracking.php") ?>
+<nav id="navigation" class="navbar replaceme">
+  <div class="container">
+  <div class="left-corner"></div>
+  <div class="right-corner"></div>
+  <div class="region region-main-menu">
+  <div id="block-system-main-menu" class="block block-system block-menu">
+  <div class="content">
+  <ul id="menu" class="navbar-list"><li class="first leaf navbar-item"><a href="/drupal_data" class="navbar-link a-class active">Home</a></li>
+  <li class="leaf navbar-item"><a href="state-of-drupal" class="navbar-link a-class">State of Drupal 8 Contrib</a></li>
+  <li class="leaf navbar-item"><a href="https://github.com/charx0r/drupalcon-devcontent/blob/master/README.md" class="navbar-link a-class" target="_blank">Documentation</a></li>
+  <li class="leaf navbar-item"><a href="https://github.com/charx0r/drupalcon-devcontent/" class="navbar-link a-class" target="_blank">Github</a></li>
+  </ul> </div>
+  </div>
+  </div>
+  </div>
+</nav>
+
 	<div class="container">
     <div class="row">
     <div class="two-third column" style="margin-top: 1%">
